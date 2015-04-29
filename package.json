@@ -1,6 +1,6 @@
 {
   "name": "ember",
-  "license": "MIT",
+  "license": "MITT",
   "version": "1.13.0-beta.1+canary",
   "scripts": {
     "build": "ember build --environment production",
