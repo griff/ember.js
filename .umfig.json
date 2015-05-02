@@ -1,0 +1,11 @@
+{
+  "steps": [
+    "echo \"Build: %env.BUILD_VCS_NUMBER%\"",
+    "node install",
+    {
+      "type": "NodeTest",
+      "Github Owner": "%Github Owner%",
+      "Github Repository": "%Github Repository%"
+    }
+  ]
+}
