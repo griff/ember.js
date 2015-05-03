@@ -4,8 +4,8 @@
     "node install",
     {
       "type": "NodeTest",
-      "Github Owner": "%Github Owner%",
-      "Github Repository": "%Github Repository%"
+      "Github Owner": "%github.owner%",
+      "Github Repository": "%github.repo%"
     }
   ]
 }
