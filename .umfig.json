@@ -1,4 +1,7 @@
 {
+  "parameters": {
+    "docker.tag": "griff/ember.js:%build.number%"
+  },
   "steps": [
     "echo \"Build: %env.BUILD_VCS_NUMBER%\"",
     "node install",
@@ -7,5 +10,8 @@
       "Github Owner": "%github.owner%",
       "Github Repository": "%github.repo%"
     }
+  ],
+  "artifacts": [
+    "dist/docker.tar"
   ]
 }
